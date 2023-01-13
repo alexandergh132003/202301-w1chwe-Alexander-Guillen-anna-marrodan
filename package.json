@@ -1,0 +1,25 @@
+{
+  "name": "w1chwe",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "prebuild:dev": "rimraf dist",
+    "prebuild": "rimraf dist",
+    "build:dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexandergh132003/202301--w1chwe-Alexander-Guillen.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexandergh132003/202301--w1chwe-Alexander-Guillen/issues"
+  },
+  "homepage": "https://github.com/alexandergh132003/202301--w1chwe-Alexander-Guillen#readme",
+  "devDependencies": {
+    "parcel": "^2.8.2",
+    "rimraf": "^4.0.4"
+  }
+}
