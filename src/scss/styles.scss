@@ -1,11 +1,53 @@
 @use "_reset";
 @use "_variables";
 
-img {
-  background-color: blue;
-}
+// img {
+//   background-color: blue;
+// }
 
 .hero {
-  background: url("/src/media/section-image.webp") no-repeat center center;
+  // background: url("/src/media/section-image.webp") no-repeat center center;
+  background-color: thistle;
   height: 1210px;
+}
+
+.hero__header {
+  display: flex;
+  justify-content: space-between;
+  & img {
+    margin: 30px 30px 0 30px;
+  }
+}
+
+.hero__introduction {
+  font-family: $font-family-primary;
+  font-size: 18px;
+  margin: 100px 16px 0 16px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  & h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+}
+
+.form-destination {
+  font-family: $font-family-primary;
+  display: flex;
+  flex-direction: column;
+  margin: 100px 30px 0 30px;
+  background-color: white;
+}
+
+label,
+input {
+  display: block;
+  font-family: $font-family-primary;
+  font-size: 14px;
+}
+
+input {
+  border: none;
+  border-bottom: solid 1px black;
 }
