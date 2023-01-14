@@ -6,7 +6,7 @@
 // }
 
 .hero {
-  // background: url("/src/media/section-image.webp") no-repeat center center;
+  // background: url("/src/media/section-image.webp") no-repeat center bottom;
   background-color: thistle;
   height: 1210px;
 }
@@ -20,25 +20,28 @@
 }
 
 .hero__introduction {
-  font-family: $font-family-primary;
+  font-family: $font-family-secondary;
   font-size: 18px;
-  margin: 198px 16px 0 16px;
+  margin: 100px 16px 0 16px;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
+  justify-content: center;
   & h1 {
     font-size: 40px;
     margin-bottom: 10px;
+    font-family: $font-family-primary;
   }
 }
 
 .form-destination {
+  height: 595px;
   font-family: $font-family-primary;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   margin: 100px 30px 0 30px;
   background-color: white;
+  border-radius: 16px;
 }
 
 label,
@@ -55,5 +58,26 @@ label {
 input {
   border: none;
   border-bottom: solid 1px black;
-  margin-top: 12px;
+  width: 217px;
+  padding-bottom: 5px;
+  margin: 20px 0 12px 0;
+}
+
+.form-destination__button-container {
+  display: flex;
+  justify-content: space-between;
+  height: 21.5%;
+}
+
+.form-destination__button {
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: $color-corporate;
+  border-radius: 0 0 16px 16px;
+  font-family: $font-family-primary;
+  font-size: 36px;
+  font-weight: 400;
+  color: white;
 }
