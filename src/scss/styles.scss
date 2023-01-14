@@ -6,8 +6,8 @@
 // }
 
 .hero {
-  // background: url("/src/media/section-image.webp") no-repeat center bottom;
-  background-color: thistle;
+  background: url("/src/media/section-image.webp");
+  background-position: 14% 72%;
   height: 1210px;
 }
 
@@ -26,10 +26,12 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  color: white;
   & h1 {
     font-size: 40px;
     margin-bottom: 10px;
     font-family: $font-family-primary;
+    font-weight: 400;
   }
 }
 
@@ -39,7 +41,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin: 100px 30px 0 30px;
+  margin: 100px 16px 0 16px;
   background-color: white;
   border-radius: 16px;
 }
@@ -49,24 +51,26 @@ input {
   display: block;
   font-family: $font-family-primary;
   font-size: 14px;
+  color: $color-text;
 }
 
 label {
-  margin: 20px 20px 12px 12px;
+  margin: 20px 12px 15px 20px;
+  text-transform: uppercase;
 }
 
 input {
   border: none;
   border-bottom: solid 1px black;
-  width: 217px;
-  padding-bottom: 5px;
-  margin: 20px 0 12px 0;
+  width: 210px;
+  padding-bottom: 10px;
+  margin: 15px 20px 30px 0;
 }
 
 .form-destination__button-container {
   display: flex;
   justify-content: space-between;
-  height: 21.5%;
+  height: 128px;
 }
 
 .form-destination__button {
@@ -80,4 +84,5 @@ input {
   font-size: 36px;
   font-weight: 400;
   color: white;
+  border-style: none;
 }
