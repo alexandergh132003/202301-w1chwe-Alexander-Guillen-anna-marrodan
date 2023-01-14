@@ -1,0 +1,11 @@
+@use "/src/scss/_reset" as *;
+@use "/src/scss/_variables" as *;
+
+img {
+  background-color: blue;
+}
+
+.hero {
+  background: url("/src/media/section-image.webp") no-repeat center center;
+  height: 1210px;
+}
