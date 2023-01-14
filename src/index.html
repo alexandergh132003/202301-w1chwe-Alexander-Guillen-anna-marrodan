@@ -47,11 +47,14 @@
       </div>
     </form>
   </section>
+
+  <!--------------------------------------------------------------------------->
   <section class="content">
 
     <article class="content-section__liked-destination">
 
       <h2 class="content-section__article-title">Popular Destinations</h2>
+      <hr class="article-title__underline">
       <span class="content-section__article-description">
         Most popular destinations around the world, from historical places to
         natural wonders.
@@ -62,36 +65,43 @@
         <figure class="cards-container__image-container image-container">
           <img src="media/berlin.webp" alt="Monument of Berlin" class="image-container__image">
           <figcaption class="image-container__description">Monument of Berlin</figcaption>
-          <i class="fa-duotone fa-location-dot"></i>
-          <figcaption class="image-container__country">Berlin, Germany</figcaption>
+          <div class="image-container__location location">
+            <img src="/src/media/Location.png" alt="Location icon" class="location__icon">
+            <figcaption class="location__country">Berlin, Germany</figcaption>
+          </div>
         </figure>
 
         <figure class="cards-container__image-container image-container">
           <img src="media/london.webp" alt="Monument of Berlin" class="image-container__image">
           <figcaption class="image-container__description">Millennium Bridge</figcaption>
-          <i class="fa-duotone fa-location-dot"></i>
-          <figcaption class="image-container__country">London, United Kingdom</figcaption>
+          <div class="image-container__location location">
+            <img src="/src/media/Location.png" alt="Location icon" class="location__icon">
+            <figcaption class="location__country">London, United Kingdom</figcaption>
+          </div>
         </figure>
 
         <figure class="cards-container__image-container image-container">
           <img src="media/venice.webp" alt="Monument of Berlin" class="image-container__image">
           <figcaption class="image-container__description">Rialto Bridge</figcaption>
-          <i class="fa-duotone fa-location-dot"></i>
-          <figcaption class="image-container__country">Venice, Italy</figcaption>
+          <div class="image-container__location location">
+            <img src="/src/media/Location.png" alt="Location icon" class="location__icon">
+            <figcaption class="location__country">Venice, Italy</figcaption>
+          </div>
         </figure>
 
 
       </div>
 
       <div class="content-section__buttons-container buttons-container">
-        <button class="buttons-container_left"><i class="fa-thin fa-angle-left"></i></button>
-        <button class="buttons-container_right"><i class="fa-thin fa-angle-right"></i></button>
+        <button class="button_right"><img src="/src/media/Izquierda.png" alt="left icon button"></button>
+        <button class="button_left"><img src="/src/media/Derecha.png" alt="right icon button"></button>
       </div>
 
     </article>
 
     <article class="content-section__special-offer">
       <h2 class="content-section__article-title">Special Offer</h2>
+      <hr class="offer-article-title__underline">
       <span class="content-section__article-description">
         Check out our special offer and discounts
       </span>
@@ -144,8 +154,8 @@
         <!---------------------------------------------------------------------------->
       </div>
       <div class="content-section__buttons-container buttons-container">
-        <button class="buttons-container_left"><i class="fa-thin fa-angle-left"></i></button>
-        <button class="buttons-container_right"><i class="fa-thin fa-angle-right"></i></button>
+        <button class="buttons-container_left"><i class="fa-solid fa-arrow-right"></i></button>
+        <button class="buttons-container_right"><i class="fa-solid fa-arrow-right"></i></button>
       </div>
     </article>
   </section>
