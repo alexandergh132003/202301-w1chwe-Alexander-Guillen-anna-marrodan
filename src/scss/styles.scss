@@ -1,5 +1,5 @@
-@use "/src/scss/_reset" as *;
-@use "/src/scss/_variables" as *;
+@use "_reset";
+@use "_variables";
 
 img {
   background-color: blue;
