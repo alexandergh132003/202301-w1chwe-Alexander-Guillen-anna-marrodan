@@ -93,6 +93,7 @@ figure:first-of-type ~ figure {
 
 .content-section__buttons-container {
   margin-top: 141.5px;
+  margin-bottom: 160px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -112,10 +113,6 @@ figure:first-of-type ~ figure {
 
 .button_left {
   background: #ff7757;
-}
-
-.content-section__special-offer {
-  margin-top: 160px;
 }
 
 .offer-article-title__underline {
@@ -191,6 +188,42 @@ figure:first-of-type ~ figure {
         padding: 16px, 24px, 16px, 24px;
         border-radius: 12px;
         border: none;
+      }
+    }
+  }
+}
+
+.our-blog-cards__card {
+  & .content-section__card-title {
+    margin: 32px 0px 24px 0px;
+    font-family: $font-family-primary;
+    font-size: 40px;
+    font-weight: 300;
+  }
+
+  & .our-blog-cards__content {
+    font-family: $font-family-secondary;
+    & .text-block__paragraph {
+      font-size: 18px;
+      line-height: 42px;
+      color: $color-secondary;
+    }
+    & .our-blog-cards__anchor-container {
+      margin-top: 24px;
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+      align-items: center;
+
+      & .article__anchor-container__anchor {
+        font-family: $font-family-secondary;
+        font-size: 24px;
+        color: $color-corporate;
+      }
+
+      & .article__anchor-container__arrow {
+        width: 30px;
+        height: 18px;
       }
     }
   }
