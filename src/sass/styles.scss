@@ -90,10 +90,6 @@ header {
   font-family: $font-family-secondary;
 }
 
-.cards-container figure:first-of-type ~ figure {
-  display: none;
-}
-
 .content-section__buttons-container {
   margin-top: 141.5px;
   margin-bottom: 160px;
