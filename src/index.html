@@ -11,9 +11,12 @@
 </head>
 
 <body>
-  <header class="header-container">
-    <img src="/src/media/Logo.png" alt="Travellian logo" width="140" height="27,52">
-    <img src="/src/media/Dropdow-menu-image.png" alt="Dropdown icon" width="37,5" height="22,92">
+  <header>
+    <div class="header-container">
+      <img src="/src/media/Logo.png" alt="Travellian logo" width="140" height="27">
+      <img src="/src/media/Dropdow-menu-image.png" alt="Dropdown icon" width="37" height="22">
+    </div>
+
   </header>
   <section class="hero">
     <div class="hero__introduction">
@@ -64,8 +67,9 @@
           <img src="media/berlin.webp" alt="Monument of Berlin" class="image-container__image" width="288" height="320">
           <figcaption class="image-container__description">Monument of Berlin</figcaption>
           <div class="image-container__location location">
-            <img src="/src/media/Location.png" alt="Location icon" class="location__icon" width="16.88" height="24">
-            <span class="location__country">Berlin, Germany</span>
+            <img src="/src/media/Location.png" alt="Location icon" class="location__icon" width="16" height="24">
+            <figcaption class="location__country">Berlin, Germany</figcaption>
+
           </div>
         </figure>
 
@@ -73,8 +77,8 @@
           <img src="media/london.webp" alt="Monument of Berlin" class="image-container__image" width="288" height="320">
           <figcaption class="image-container__description">Millennium Bridge</figcaption>
           <div class="image-container__location location">
-            <img src="/src/media/Location.png" alt="Location icon" class="location__icon" width="16.88" height="24">
-            <span class="location__country">London, United Kingdom</span>
+            <img src="/src/media/Location.png" alt="Location icon" class="location__icon" width="16" height="24">
+            <figcaption class="location__country">London, United Kingdom</figcaption>
           </div>
         </figure>
 
@@ -82,8 +86,10 @@
           <img src="media/venice.webp" alt="Monument of Berlin" class="image-container__image" width="288" height="320">
           <figcaption class="image-container__description">Rialto Bridge</figcaption>
           <div class="image-container__location location">
-            <img src="/src/media/Location.png" alt="Location icon" class="location__icon" width="16.88" height="24">
-            <span class="location__country">Venice, Italy</span>
+
+            <img src="/src/media/Location.png" alt="Location icon" class="location__icon" width="16" height="24">
+            <figcaption class="location__country">Venice, Italy</figcaption>
+
           </div>
         </figure>
 
@@ -305,7 +311,54 @@
           </div>
         </div>
     </article>
+    <article class="our-news">
+      <span>Email</span>
+      <div class="our-news_button-container">
+        <button type="submit" our-news_button">Enter your email</button>
+        <button type="submit" class="our-news_button">Subscribe</button>
+      </div>
+    </article>
   </section>
+  <footer>
+    <img src="/src/media/Logo.png" alt="Travellian logo" width="140" height="27">
+    <span class="footer__copyright-message">Copyright © Travellian 2020 All rights reserved</span>
+    <div class="footer">
+      <ul class="footer_menu-list">Menu
+        <li class="footer__items">Home</li>
+        <li class="footer__items">Explore</li>
+        <li class="footer__items">Travel</li>
+        <li class="footer__items">Blog</li>
+        <li class="footer__items">Pricing</li>
+      </ul>
+
+      <ul class="footer__menu-list">Information
+        <li class="footer__items">Desttinations</li>
+        <li class="footer__items">Supports</li>
+        <li class="footer__items">Terms & Conditions</li>
+        <li class="footer__items">Privacy</li>
+      </ul>
+
+      <ul class="footer__contact-info">
+        <li class="footer-contact-info__items">+123 456 789</li>
+        <li class="footer-contact-info__items">info@travellian.com</li>
+        <li class="footer-contact-info__items">1245, New Yourk, USA</li>
+      </ul>
+
+      <ul class="footer__social-media">
+        <li class="footer-social-media__items"><img src="/src/media/facebook.png" alt="Facebook logo" width="31"
+            height="31"></li>
+        <li class="footer-social-media__items"><img src="/src/media/pinterest.png" alt="Pinterest logo" width="32"
+            height="32""></li>
+        <li class=" footer-social-media__items"><img src="/src/media/instagram.png" alt="Instagram logo" width="32"
+            height="32"></li>
+        <li class="footer-social-media__items"><img src="/src/media/_x30_4.Twitter.png" alt="Twitter logo" width="32"
+            height="32"></li>
+      </ul>
+
+
+    </div>
+  </footer>
+
 </body>
 
 </html>
