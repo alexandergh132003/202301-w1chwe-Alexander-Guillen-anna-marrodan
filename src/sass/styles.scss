@@ -5,10 +5,18 @@
 @use "_our-blog-section" as *;
 @use "_travelers-experiences-section" as *;
 @use "_trip-planner" as *;
+@use "_newsletter" as *;
 
 // img {
 //   background-color: blue;
 // }
+.our-news_button_subscribe {
+  background-color: $color-corporate;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 20px;
+}
 
 body {
   position: relative;
@@ -27,7 +35,7 @@ header {
   }
 }
 .content {
-  margin: 80px 16px 16px;
+  margin: 80px 16px 0px 16px;
 }
 
 .content-section__article-title {
