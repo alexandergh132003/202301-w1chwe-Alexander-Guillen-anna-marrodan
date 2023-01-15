@@ -204,8 +204,15 @@ figure:first-of-type ~ figure {
   margin-top: 60px;
   width: 288px;
   height: 675px;
-  &img {
+  background: #fff8f1;
+
+  & .card__image {
+    height: 288;
     width: 100%;
-    height: 42.3703703704%;
+    border-radius: 26px 26px 0px 0px;
+  }
+
+  & .card__text-block {
+    padding: 20px;
   }
 }
