@@ -2,7 +2,7 @@
 @use "_variables" as *;
 @use "_buttons" as *;
 @use "_hero-section" as *;
-
+@use "_our-blog-section" as *;
 // img {
 //   background-color: blue;
 // }
@@ -93,6 +93,7 @@ figure:first-of-type ~ figure {
 
 .content-section__buttons-container {
   margin-top: 141.5px;
+  margin-bottom: 160px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -112,10 +113,6 @@ figure:first-of-type ~ figure {
 
 .button_left {
   background: #ff7757;
-}
-
-.content-section__special-offer {
-  margin-top: 160px;
 }
 
 .offer-article-title__underline {
