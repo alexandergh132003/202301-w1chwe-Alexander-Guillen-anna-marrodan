@@ -21,6 +21,26 @@
   font-weight: 400;
   color: white;
   border-style: none;
+  padding: 0 2px 0 2px;
+}
+
+@media (min-width: 800px) {
+  .form-destination__button-container {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+  }
+  .form-destination__button {
+    justify-content: space-around;
+    background-color: $color-corporate;
+    border-radius: 0 16px 16px 0;
+    font-family: $font-family-primary;
+    font-size: 36px;
+    font-weight: 400;
+    color: white;
+    border-style: none;
+    padding: 0 20px 0 2px;
+  }
 }
 
 .article__button {
