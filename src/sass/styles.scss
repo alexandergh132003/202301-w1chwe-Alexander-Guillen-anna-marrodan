@@ -1,108 +1,11 @@
 @use "_reset" as *;
 @use "_variables" as *;
+@use "_buttons" as *;
+@use "_hero-section" as *;
 
 // img {
 //   background-color: blue;
 // }
-
-.hero {
-  background: url("/src/media/section-image.webp");
-  background-position: 14% 72%;
-  height: 1210px;
-}
-
-.hero__header {
-  display: flex;
-  justify-content: space-between;
-  & img {
-    margin: 30px 30px 0 30px;
-  }
-}
-
-.hero__introduction {
-  font-family: $font-family-secondary;
-  font-size: 18px;
-  margin: 100px 16px 0 16px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  color: white;
-  & h1 {
-    font-size: 40px;
-    margin-bottom: 10px;
-    font-family: $font-family-primary;
-    font-weight: 400;
-  }
-}
-
-.form-destination {
-  height: 595px;
-  font-family: $font-family-primary;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin: 100px 16px 0 16px;
-  background-color: white;
-  border-radius: 16px;
-}
-
-.form-destination__input,
-.form-destination__label {
-  display: block;
-  font-family: $font-family-primary;
-  font-size: 14px;
-  color: $color-text;
-}
-
-.form-destination__label {
-  margin: 20px 12px 15px 20px;
-  text-transform: uppercase;
-}
-
-.form-destination__input {
-  border: none;
-  border-bottom: solid 1px black;
-  width: 210px;
-  padding-bottom: 10px;
-  margin: 15px 20px 30px 0;
-}
-
-.article__button-container {
-  display: flex;
-  justify-content: space-between;
-}
-
-.form-destination__button-container {
-  height: 128px;
-}
-
-.article__button {
-  flex: 1;
-  display: flex;
-  align-items: center;
-}
-
-.form-destination__button {
-  justify-content: space-around;
-  background-color: $color-corporate;
-  border-radius: 0 0 16px 16px;
-  font-family: $font-family-primary;
-  font-size: 36px;
-  font-weight: 400;
-  color: white;
-  border-style: none;
-}
-
-.our-blog-cards__button {
-  background-color: transparent;
-  font-family: $font-family-primary;
-  font-size: 24px;
-  font-weight: 400;
-  color: $color-corporate;
-  border-style: none;
-  gap: 20px;
-  align-items: center;
-}
 
 .content {
   margin: 80px 16px 16px;
