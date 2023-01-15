@@ -3,11 +3,29 @@
 @use "_buttons" as *;
 @use "_hero-section" as *;
 @use "_our-blog-section" as *;
+@use "_travelers-experiences-section" as *;
 @use "_trip-planner" as *;
+
 // img {
 //   background-color: blue;
 // }
 
+body {
+  position: relative;
+}
+
+header {
+  position: absolute;
+  width: 100%;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  & img {
+    margin: 30px 15px 0 15px;
+  }
+}
 .content {
   margin: 80px 16px 16px;
 }
