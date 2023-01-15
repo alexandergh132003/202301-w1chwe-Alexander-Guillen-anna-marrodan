@@ -5,6 +5,10 @@
   margin-top: 100px;
 }
 
+div.travelers-experience-cards div:first-of-type ~ div {
+  display: none;
+}
+
 .travelers-experience-card__image {
   border-radius: 50%;
   position: absolute;
