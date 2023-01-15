@@ -54,3 +54,30 @@
   padding: 5px 5px 10px 5px;
   margin: 15px 20px 30px 0;
 }
+
+@media (min-width: 800px) {
+  .form-destination {
+    height: 18%;
+    width: 84%;
+    aspect-ratio: 1 / 0.17;
+    font-family: $font-family-primary;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 16px 0 16px;
+    background-color: white;
+    // border-radius: 16px;
+  }
+  .form-destination__container {
+    display: flex;
+    flex-direction: row;
+  }
+  .form-destination__input,
+  .form-destination__label {
+    display: block;
+    font-family: $font-family-primary;
+    font-size: 14px;
+    color: $color-text;
+  }
+}
