@@ -1,0 +1,43 @@
+@use "_variables" as *;
+@use "_buttons" as *;
+.our-news > div {
+  padding: 40px 20px 40px 20px;
+  width: 288px;
+  height: 463px;
+  display: flex;
+  flex-direction: column;
+  font-family: $font-family-secondary;
+  & h2 {
+    font-size: 40px;
+    color: $color-text;
+    font-family: $font-family-primary;
+    font-weight: 300;
+    margin-bottom: 60px;
+  }
+
+  & div {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    & .our-news_button_subscribe {
+      font-size: 20px;
+      font-family: $font-family-secondary;
+      background-color: $color-corporate;
+      color: white;
+      border: none;
+      border-radius: 12px;
+      padding: 20px;
+    }
+
+    & .our-news_button {
+      font-size: 20px;
+      font-family: $font-family-secondary;
+      background-color: #ffe8d4;
+      color: $color-corporate;
+      border: none;
+      border-radius: 12px;
+      padding: 20px;
+    }
+  }
+}
