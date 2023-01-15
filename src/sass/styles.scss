@@ -46,20 +46,20 @@
   border-radius: 16px;
 }
 
-label,
-input {
+.form-destination__input,
+.form-destination__label {
   display: block;
   font-family: $font-family-primary;
   font-size: 14px;
   color: $color-text;
 }
 
-label {
+.form-destination__label {
   margin: 20px 12px 15px 20px;
   text-transform: uppercase;
 }
 
-input {
+.form-destination__input {
   border: none;
   border-bottom: solid 1px black;
   width: 210px;
@@ -95,6 +95,10 @@ input {
   font-family: $font-family-primary;
   font-size: 40px;
   font-weight: 300;
+  margin: 20px 16px 30px 16px;
+  display: inline-block;
+  padding-bottom: 20px;
+  border-bottom: solid 3px #ff7757;
 }
 
 .image-container__image {
@@ -114,6 +118,8 @@ input {
   font-family: $font-family-secondary;
   font-size: 18px;
   color: #767e86;
+  margin: 20px 16px 32px 16px;
+  display: block;
 }
 
 .content-section__article-cards-container {
