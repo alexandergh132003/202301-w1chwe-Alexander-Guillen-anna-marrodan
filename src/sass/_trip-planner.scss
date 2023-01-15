@@ -1,0 +1,42 @@
+@use "_variables.scss" as *;
+@import "/node_modules/@fontsource/playfair-display/600.css";
+
+.content-section__trip-planners {
+  & h2 {
+    margin-top: 160px;
+  }
+  & .trip-planners__cards {
+    margin-top: 80px;
+
+    & .trip-planners-cards__card {
+      margin-bottom: 64px;
+      height: 466px;
+
+      & .image-container__image {
+        border-radius: 26px;
+      }
+
+      & .trip-planners-card__text-block {
+        & .trip-planners-card__information {
+          font-family: $font-family-secondary;
+          font-size: 18px;
+          margin-top: 20px;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+
+          & span:first-of-type {
+            text-transform: uppercase;
+          }
+        }
+        & .trip-planners-card__title {
+          margin-top: 12px;
+          font-size: 28px;
+          font-weight: 600;
+          font-family: $font-family-primary;
+        }
+      }
+    }
+  }
+}
