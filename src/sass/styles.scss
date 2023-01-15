@@ -205,6 +205,11 @@ figure:first-of-type ~ figure {
   width: 288px;
   height: 675px;
   background: #fff8f1;
+  border-radius: 0px 0px 26px 26px;
+  font-family: $font-family-secondary;
+  & > :not(div:first-of-type) {
+    display: none;
+  }
 
   & .card__image {
     height: 288;
@@ -213,6 +218,54 @@ figure:first-of-type ~ figure {
   }
 
   & .card__text-block {
-    padding: 20px;
+    margin: 20px;
+
+    & .text-block__title {
+      font-size: 28px;
+      color: #767e86;
+    }
+
+    & .text-block__rating {
+      margin-top: 10px;
+      height: 24px;
+    }
+    & .text-block__paragraph {
+      margin-top: 26.98px;
+      font-family: $font-family-secondary;
+      font-size: 16px;
+    }
+
+    & .card__button-container {
+      display: flex;
+      flex-direction: column;
+      gap: 19px;
+      & .card__from {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 8px;
+        & span:first-of-type {
+          font-size: 18px;
+          color: #767e86;
+        }
+        & span {
+          font-size: 32px;
+          color: $color-corporate;
+        }
+      }
+
+      & .card__button {
+        font-size: 20px;
+        text-transform: uppercase;
+        color: white;
+        background: $color-corporate;
+        width: 127px;
+        height: 56px;
+        padding: 16px, 24px, 16px, 24px;
+        border-radius: 12px;
+        border: none;
+      }
+    }
   }
 }
