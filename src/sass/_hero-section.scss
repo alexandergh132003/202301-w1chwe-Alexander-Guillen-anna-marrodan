@@ -1,0 +1,63 @@
+@use "_variables" as *;
+
+.hero {
+  background: url("/src/media/section-image.webp");
+  background-position: 14% 72%;
+  height: 1210px;
+}
+
+.hero__header {
+  display: flex;
+  justify-content: space-between;
+  & img {
+    margin: 30px 30px 0 30px;
+  }
+}
+
+.hero__introduction {
+  font-family: $font-family-secondary;
+  font-size: 18px;
+  margin: 100px 16px 0 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  & h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-family: $font-family-primary;
+    font-weight: 400;
+  }
+}
+
+.form-destination {
+  height: 595px;
+  font-family: $font-family-primary;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 100px 16px 0 16px;
+  background-color: white;
+  border-radius: 16px;
+}
+
+.form-destination__input,
+.form-destination__label {
+  display: block;
+  font-family: $font-family-primary;
+  font-size: 14px;
+  color: $color-text;
+}
+
+.form-destination__label {
+  margin: 20px 12px 15px 20px;
+  text-transform: uppercase;
+}
+
+.form-destination__input {
+  border: none;
+  border-bottom: solid 1px black;
+  width: 210px;
+  padding: 4px 4px 10px 4px;
+  margin: 15px 20px 30px 0;
+}
