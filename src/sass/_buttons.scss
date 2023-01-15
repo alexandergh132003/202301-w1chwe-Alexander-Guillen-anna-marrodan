@@ -1,15 +1,12 @@
 @use "_variables" as *;
 
-.article__button-container {
+.form-destination__button-container {
   display: flex;
   justify-content: space-between;
-}
-
-.form-destination__button-container {
   height: 128px;
 }
 
-.article__button {
+.form-destination__button {
   flex: 1;
   display: flex;
   align-items: center;
@@ -26,13 +23,14 @@
   border-style: none;
 }
 
-.our-blog-cards__button {
-  background-color: transparent;
-  font-family: $font-family-primary;
-  font-size: 24px;
-  font-weight: 400;
-  color: $color-corporate;
-  border-style: none;
-  gap: 20px;
-  align-items: center;
+.article__button {
+  background-color: $color-corporate;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.content-section__trip-planners__button {
+  font-family: $font-family-secondary;
 }
