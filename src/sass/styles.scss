@@ -4,6 +4,8 @@
 @use "_hero-section" as *;
 @use "_our-blog-section" as *;
 @use "_travelers-experiences-section" as *;
+@use "_trip-planner" as *;
+
 // img {
 //   background-color: blue;
 // }
@@ -32,30 +34,21 @@ header {
   font-family: $font-family-primary;
   font-size: 40px;
   font-weight: 300;
-  margin: 20px 16px 30px 16px;
+  margin: 20px 0px 30px 0px;
   display: inline-block;
   padding-bottom: 20px;
   border-bottom: solid 3px #ff7757;
 }
 
-.image-container__image {
-  width: 288px;
-  height: 320px;
-}
-
-.article-title__underline {
-  margin-top: 20px;
-  margin-bottom: 32px;
+.first-title {
   width: 227px;
-  height: 4px;
-  background: $color-corporate;
 }
 
 .content-section__article-description {
   font-family: $font-family-secondary;
   font-size: 18px;
   color: #767e86;
-  margin: 20px 16px 32px 16px;
+  margin: 20px 0px 32px 0px;
   display: block;
 }
 
@@ -71,8 +64,6 @@ header {
 
 .image-container__image {
   border-radius: 16px;
-  width: $image-common-width;
-  height: $image-common-height;
   object-fit: cover;
 }
 
@@ -94,17 +85,12 @@ header {
   gap: 5px;
 }
 
-.location__icon {
-  width: 16.88px;
-  height: 24px;
-}
-
 .location__country {
   font-size: 18;
   font-family: $font-family-secondary;
 }
 
-figure:first-of-type ~ figure {
+.cards-container figure:first-of-type ~ figure {
   display: none;
 }
 
@@ -152,8 +138,6 @@ figure:first-of-type ~ figure {
   }
 
   & .card__image {
-    height: 288;
-    width: 100%;
     border-radius: 26px 26px 0px 0px;
   }
 
@@ -167,7 +151,6 @@ figure:first-of-type ~ figure {
 
     & .text-block__rating {
       margin-top: 10px;
-      height: 24px;
     }
     & .text-block__paragraph {
       margin-top: 26.98px;
