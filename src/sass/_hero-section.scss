@@ -2,16 +2,9 @@
 
 .hero {
   background: url("/src/media/section-image.webp");
-  background-position: 14% 72%;
+  background-position: 10% 68%;
   height: 1210px;
-}
-
-.hero__header {
-  display: flex;
-  justify-content: space-between;
-  & img {
-    margin: 30px 30px 0 30px;
-  }
+  padding-top: 100px;
 }
 
 .hero__introduction {

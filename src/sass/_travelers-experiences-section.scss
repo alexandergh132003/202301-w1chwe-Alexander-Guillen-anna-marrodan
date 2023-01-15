@@ -1,0 +1,36 @@
+@use "_variables.scss" as *;
+
+.travelers-experience-cards_card {
+  position: relative;
+  margin-top: 100px;
+}
+
+.travelers-experience-card__image {
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+}
+
+.travelers-experience-card_text-block {
+  background-color: #f5f6f7;
+  font-family: $font-family-secondary;
+  font-size: 18px;
+  padding: 60px 20px 30px 20px;
+  color: $color-text;
+
+  & .text-block__rating {
+    margin: 20px 0 10px 0;
+  }
+
+  & .travelers-experience-card__information {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 5px;
+  }
+
+  & .travelers-experience__information-name {
+    font-family: $font-family-primary;
+    font-size: 24px;
+  }
+}
